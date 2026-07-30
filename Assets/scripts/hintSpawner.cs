@@ -13,6 +13,7 @@ public class hintSpawner : MonoBehaviour
 
     private void Awake()
     {
+        if(locations.Length == 0)
         locations = transform.GetComponentsInChildren<Transform>();
     }
 
