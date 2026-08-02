@@ -14,11 +14,13 @@ public class playermove : MonoBehaviour
     public Animator animator;
 
     public CharacterController controller;
+    public playerDown heightAdjustment;
 
     
     // Start is called before the first frame update
     void Start()
     {
+        heightAdjustment = GetComponent<playerDown>();
 
         controller = GetComponent<CharacterController>();
         Cursor.lockState = CursorLockMode.Locked;
@@ -29,7 +31,6 @@ public class playermove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
         moveInput.x = Input.GetAxis("Horizontal");
         moveInput.z = Input.GetAxis("Vertical");
 
@@ -50,7 +51,7 @@ public class playermove : MonoBehaviour
             Quaternion targetRotation = Quaternion.LookRotation(finalMove);
             transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
         }
-
+        
         controller.Move(finalMove * Time.deltaTime);
     }
 }
