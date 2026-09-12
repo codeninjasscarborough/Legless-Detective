@@ -8,6 +8,7 @@ public class GameManger : MonoBehaviour
     public static GameManger instance;
     private int suspectIndex;
     public SuspectData[] suspectlist;
+    public SelectedSuspect selectedSus;
 
     private void Awake()
     {
@@ -20,7 +21,7 @@ public class GameManger : MonoBehaviour
             Destroy(this);
         }
         suspectIndex = Random.Range(0, suspectlist.Length);
-
+        selectedSus.suspect = suspectlist[suspectIndex];
     }
 
     public void SelectSuspect(int index)
