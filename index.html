@@ -7,7 +7,6 @@
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=960 height=600 tabindex="-1" style="width: 960px; height: 600px; background: #231F20"></canvas>
-    <script src="Build/Legless build web.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -25,9 +24,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/Legless build web.data.unityweb",
-        frameworkUrl: "Build/Legless build web.framework.js.unityweb",
-        codeUrl: "Build/Legless build web.wasm.unityweb",
+        dataUrl: "Build/new build.data.unityweb",
+        frameworkUrl: "Build/new build.framework.js.unityweb",
+        codeUrl: "Build/new build.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "CodeNinjasScarborough",
         productName: "Legless",
