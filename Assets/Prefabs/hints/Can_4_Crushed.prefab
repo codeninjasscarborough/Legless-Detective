@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 9120057462007907752}
   - component: {fileID: -5525011335191991690}
   - component: {fileID: 8910032945521773338}
+  - component: {fileID: -8665257689673910967}
   m_Layer: 7
   m_Name: Can_4_Crushed
   m_TagString: Untagged
@@ -30,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 200, y: 200, z: 200}
+  m_LocalScale: {x: 50, y: 50, z: 50}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -131,5 +132,17 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0024241733, y: 0.0045408485, z: 0.0021378375}
-  m_Center: {x: 0.000039772945, y: 0.0011371484, z: -0.00009744408}
+  m_Size: {x: 0.012120866, y: 0.022704247, z: 0.010689189}
+  m_Center: {x: 0.00019886484, y: 0.0056857434, z: -0.00048722036}
+--- !u!114 &-8665257689673910967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7439991141529241392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ff3b655be917f34c904cf28162a9a2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
