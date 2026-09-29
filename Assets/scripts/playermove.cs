@@ -9,6 +9,7 @@ public class playermove : MonoBehaviour
     private Camera cam;
 
     public float speed = 5f;
+    public float verticalspeed = 5f;
     public float rotationSpeed = 10f;
 
     public Animator animator;
@@ -33,6 +34,7 @@ public class playermove : MonoBehaviour
     {
         moveInput.x = Input.GetAxis("Horizontal");
         moveInput.z = Input.GetAxis("Vertical");
+        float vertialmovement = Input.GetAxis("Jump");
 
         animator.SetBool("IsMoving", moveInput.magnitude != 0);
 
@@ -43,7 +45,7 @@ public class playermove : MonoBehaviour
         camForward.y = 0f;
         camRight.y = 0f;
 
-        Vector3 finalMove =  (moveInput.z * camForward + moveInput.x * camRight) * speed;
+        Vector3 finalMove = (moveInput.z * camForward + moveInput.x * camRight) * speed + vertialmovement * Vector3.up * verticalspeed;
 
 
         if (finalMove.magnitude > 0.01f)
@@ -52,6 +54,6 @@ public class playermove : MonoBehaviour
             transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
         }
         
-        controller.Move(finalMove * Time.deltaTime);
+        controller?.Move(finalMove * Time.deltaTime);
     }
 }

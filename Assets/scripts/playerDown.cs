@@ -10,10 +10,11 @@ public class playerDown : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(UpdateHeight());
+        //StartCoroutine(UpdateHeight());
+
     }
 
-    private IEnumerator UpdateHeight()
+/*    private IEnumerator UpdateHeight()
     {
         RaycastHit hit;
 
@@ -31,6 +32,16 @@ public class playerDown : MonoBehaviour
         }
         yield return null;
         StartCoroutine(UpdateHeight());
+    }*/
+    void Update()
+    {
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, Vector3.down, out hit, Mathf.Infinity, floorMask))
+        {
+            
+            Vector3 newPos = hit.point + floatHeight * Vector3.up;
+            transform.position = newPos;
+           
+        }
     }
-
 }

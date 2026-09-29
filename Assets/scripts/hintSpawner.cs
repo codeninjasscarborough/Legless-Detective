@@ -19,7 +19,7 @@ public class hintSpawner : MonoBehaviour
 
     private void Start()
     {
-        suspect = GameManger.instance.GetSuspect();
+        suspect = GameManager.instance.GetSuspect();
         for (int i = 0; i < suspect.hints.Length; i++)
         {
             int hintIndex = suspect.hints[i];

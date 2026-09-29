@@ -13,18 +13,22 @@ public class MenuManagment : MonoBehaviour
 
     public CanvasGroup[] screens;
 
-    public void SwitchtoMain()
+    public void SwitchtoIntro()
     {
         disableGroups();
         enablegroup(1);
     }
 
-    public void SwitchToInstruction()
+    public void SwitchToMain()
     {
         disableGroups();
         enablegroup(2);
     }
-
+    public void SwitchToInstruction()
+    {
+        disableGroups();
+        enablegroup(3);
+    }
     public void SwitchtoLevelSelect()
     {
         MainMenu.SetActive(false);

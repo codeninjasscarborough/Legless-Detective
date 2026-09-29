@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameManger : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
-    public static GameManger instance;
+    public static GameManager instance;
     private int suspectIndex;
     public SuspectData[] suspectlist;
     public SelectedSuspect selectedSus;

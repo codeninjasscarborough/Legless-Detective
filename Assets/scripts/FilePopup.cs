@@ -15,7 +15,7 @@ public class FilePopup : MonoBehaviour
         if(susBtns.Count > 0)   
         for(int i = 0; i < susBtns.Count; i++)
         {
-            susBtns[i].onClick.AddListener(() => GetComponent<GameManger>().SelectSuspect(i));
+            susBtns[i].onClick.AddListener(() => GetComponent<GameManager>().SelectSuspect(i));
         }
     }
 

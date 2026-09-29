@@ -7,7 +7,6 @@ public class introScreen : MonoBehaviour, IPointerClickHandler
 {
     public void OnPointerClick(PointerEventData eventData)
     {
-        GetComponentInParent<MenuManagment>().SwitchtoMain();
     }
 
     // Start is called before the first frame update

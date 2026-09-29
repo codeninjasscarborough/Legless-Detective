@@ -20,11 +20,11 @@ public class SuspectSetup : MonoBehaviour
             // get suspect's hints
             suspectName = suspectList[i].transform.GetChild(0).GetComponent<TMP_Text>();
             suspectHints = suspectList[i].transform.GetChild(1).GetComponent<TMP_Text>();
-            var suspect = GameManger.instance.GetSuspect(i);
+            var suspect = GameManager.instance.GetSuspect(i);
             suspectName.text = suspect.name;
 
             suspectHints.text = "Hints: \n";
-            for (int j = 0; j < 3; j++)
+            for (int j = 0; j < 0; j++)
             {
                 int hintIdx = suspect.hints[j];
                 suspectHints.text += HintNames.HintName[hintIdx] + "\n";
