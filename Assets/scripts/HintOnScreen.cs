@@ -4,19 +4,16 @@ using UnityEngine;
 
 public class HintOnScreen : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    public Vector3 initPosition;
+
+    private void OnTriggerEnter(Collider other)
     {
-        if(transform.position.y < -20)
+        if(other.CompareTag("HintTrigger"))
         {
-            transform.position = new Vector3(transform.position.x, 0, transform.position.z);
-            GetComponent<Rigidbody>().MovePosition(transform.position);
+            transform.position = initPosition;
+            GetComponent<Rigidbody>().MovePosition(initPosition);
+            Debug.Log($"Item {transform.name} fell through! Resetting its position.");
         }
     }
 }

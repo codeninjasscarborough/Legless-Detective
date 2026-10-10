@@ -24,7 +24,7 @@ public class SuspectSetup : MonoBehaviour
             suspectName.text = suspect.name;
 
             suspectHints.text = "Hints: \n";
-            for (int j = 0; j < 0; j++)
+            for (int j = 0; j < suspect.hints.Length; j++)
             {
                 int hintIdx = suspect.hints[j];
                 suspectHints.text += HintNames.HintName[hintIdx] + "\n";

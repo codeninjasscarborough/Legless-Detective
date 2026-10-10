@@ -23,9 +23,10 @@ public class hintSpawner : MonoBehaviour
         for (int i = 0; i < suspect.hints.Length; i++)
         {
             int hintIndex = suspect.hints[i];
-            
-                Instantiate(hint[hintIndex], locations[Random.Range(0, locations.Length)].position, hint[hintIndex].transform.rotation);
-            
+            Vector3 hintPosition = locations[Random.Range(0, locations.Length)].position;
+            GameObject spawnedHint = Instantiate(hint[hintIndex], hintPosition, hint[hintIndex].transform.rotation);
+            spawnedHint.GetComponent<HintOnScreen>().initPosition = hintPosition;
+            Debug.Log("Spawn hint at " + hintPosition);
         }
     }
 }

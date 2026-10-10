@@ -15,13 +15,11 @@ public class playermove : MonoBehaviour
     public Animator animator;
 
     public CharacterController controller;
-    public playerDown heightAdjustment;
 
     
     // Start is called before the first frame update
     void Start()
     {
-        heightAdjustment = GetComponent<playerDown>();
 
         controller = GetComponent<CharacterController>();
         Cursor.lockState = CursorLockMode.Locked;
@@ -34,7 +32,8 @@ public class playermove : MonoBehaviour
     {
         moveInput.x = Input.GetAxis("Horizontal");
         moveInput.z = Input.GetAxis("Vertical");
-        float vertialmovement = Input.GetAxis("Jump");
+
+        float verticalMovement = Input.GetAxis("Jump");
 
         animator.SetBool("IsMoving", moveInput.magnitude != 0);
 
@@ -42,18 +41,34 @@ public class playermove : MonoBehaviour
 
         Vector3 camForward = cam.transform.forward;
         Vector3 camRight = cam.transform.right;
+
         camForward.y = 0f;
         camRight.y = 0f;
 
-        Vector3 finalMove = (moveInput.z * camForward + moveInput.x * camRight) * speed + vertialmovement * Vector3.up * verticalspeed;
+        camForward.Normalize();
+        camRight.Normalize();
+
+        Vector3 horizontalMove = (moveInput.z * camForward + moveInput.x * camRight) * speed;
+
+        Vector3 verticalMove = verticalMovement * Vector3.up * verticalspeed;
+
+        Vector3 finalMove = horizontalMove + verticalMove;
 
 
-        if (finalMove.magnitude > 0.01f)
-        {
-            Quaternion targetRotation = Quaternion.LookRotation(finalMove);
-            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
-        }
-        
+        float targetYaw = horizontalMove.sqrMagnitude > 0.01f ? Quaternion.LookRotation(horizontalMove).eulerAngles.y : transform.rotation.eulerAngles.y;
+
+        float targetPitch = -verticalMovement * 15f;
+
+        Quaternion targetRotation = Quaternion.Euler(targetPitch, targetYaw, 0f);
+
+        transform.rotation = Quaternion.Slerp(
+            transform.rotation,
+            targetRotation,
+            rotationSpeed * Time.deltaTime
+        );
+
         controller?.Move(finalMove * Time.deltaTime);
     }
+
+
 }

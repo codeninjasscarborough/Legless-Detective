@@ -250,8 +250,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 25.571793, y: 23.779099}
-  m_SizeDelta: {x: 960.6463, y: 600.3465}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &152949855
 MonoBehaviour:
@@ -667,8 +667,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 151.5, y: -59.128}
-  m_SizeDelta: {x: 303, y: 276.26}
+  m_AnchoredPosition: {x: 135, y: -86.954}
+  m_SizeDelta: {x: 303, y: 331.91}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &266320860
 MonoBehaviour:
@@ -691,7 +691,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Ninja:\n- Chloe Liu\n\nSensei:\n- Aayush\n- Jaismine\n- Anna\n\nFont:
-    \n- Blambot Fonts\n\nCode Ninja Scarborough"
+    \n- Blambot Fonts\n\nEffects:\n- Hovl Studio\n\nCode Ninja Scarborough"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b599552152748794d94e4fa9dc02bd9a, type: 2}
   m_sharedMaterial: {fileID: -7477249205473803901, guid: b599552152748794d94e4fa9dc02bd9a, type: 2}
@@ -754,7 +754,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 1.2740784, y: 50.53206, z: 0, w: 0}
+  m_margin: {x: 1.2740784, y: -3.0159914, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1122,16 +1122,15 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &329157046
-Transform:
+--- !u!224 &329157046
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 329157045}
-  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -25, y: -24.35994, z: -25.927402}
+  m_LocalPosition: {x: 0, y: 0, z: -25.927402}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1140,6 +1139,11 @@ Transform:
   - {fileID: 978559875}
   m_Father: {fileID: 1872142903}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &329157047
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -1190,8 +1194,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 25.8635, y: 24.4674}
-  m_SizeDelta: {x: 958.5897, y: 603.0265}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &372919074
 MonoBehaviour:
@@ -1945,8 +1949,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 25.571793, y: 23.779099}
-  m_SizeDelta: {x: 960.6463, y: 600.3465}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &606299462
 MonoBehaviour:
@@ -2020,7 +2024,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -2.8020935, y: 0}
+  m_AnchoredPosition: {x: -2.802124, y: 0}
   m_SizeDelta: {x: 5.6042, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &775568164
@@ -2207,8 +2211,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000030517578, y: 0.000061035156}
-  m_SizeDelta: {x: 50.526, y: 31.564}
+  m_AnchoredPosition: {x: -2.802002, y: 6.6183777}
+  m_SizeDelta: {x: 56.425, y: 45.498}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &816613323
 MonoBehaviour:
@@ -2563,8 +2567,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 25.907, y: 23.3765}
-  m_SizeDelta: {x: 962.7746, y: 598.8745}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1053953766
 GameObject:
@@ -2870,8 +2874,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 371.1, y: -249.5}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 361, y: -232}
+  m_SizeDelta: {x: 215.6995, y: 71.8033}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1090244416
 MonoBehaviour:
@@ -3535,8 +3539,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -5.7419, y: -57.5162}
-  m_SizeDelta: {x: 682.02, y: 279.4814}
+  m_AnchoredPosition: {x: -31, y: -76}
+  m_SizeDelta: {x: 682.02, y: 353.818}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1695788526
 MonoBehaviour:
@@ -3560,7 +3564,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Models: \n- Aliosa \n- Rodolfo Rubens\n- Maximalist\n- Sten Ulfsson \n-
     Mister Necturus\n- Marpa Studio \n- Izanai Games Store \n- Qatmo \n- Mcsteegs
-    \n- imbogies \n\n"
+    \n- imbogies \n- Glowbox 3D\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b599552152748794d94e4fa9dc02bd9a, type: 2}
   m_sharedMaterial: {fileID: -7477249205473803901, guid: b599552152748794d94e4fa9dc02bd9a, type: 2}
@@ -4068,22 +4072,26 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!4 &1812251045
-Transform:
+--- !u!224 &1812251045
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1812251043}
-  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -25, y: -24.35994, z: -25.927402}
+  m_LocalPosition: {x: 0, y: 0, z: -25.927402}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 152949854}
   m_Father: {fileID: 1872142903}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -0.000030517578}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1872142899
 GameObject:
   m_ObjectHideFlags: 0
@@ -4536,12 +4544,14 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "- By using the mouse or touchpad to move the cursor up or down to adjust
-    the screen. \n- Use the WASD or the arrows key to move the player.\n- There will
-    be three objects in the crime scene. Find the object and press F to get the list
-    objects, which you can chech off by pressing it. \n- Press F to again to remove
-    the list from the screen\n- After finding all three of the objects, scroll to
-    the bottom of the checklist and press Blame. Choose your suspect and press it.
-    \n\n-You only have 2 to 5 minutes before the propeller exploses"
+    the screen. \n- Use the WASD or the arrows key to move the player.\n- Use the
+    space and shitf keys to move the player up or down \n- There will be three objects
+    in the crime scene. Find the object and press F to get the list objects, which
+    you can check it off by pressing it. \n- There will be effects when you are near
+    a hint. \n- Press F to again to remove the list from the screen\n- After finding
+    all three of the objects, scroll to the bottom of the checklist and press Blame.
+    Choose your suspect and press it. \n\n-You only have 2 to 5 minutes before the
+    propeller exploses"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b599552152748794d94e4fa9dc02bd9a, type: 2}
   m_sharedMaterial: {fileID: -7477249205473803901, guid: b599552152748794d94e4fa9dc02bd9a, type: 2}
@@ -5056,7 +5066,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000011444, y: -57.795}
+  m_AnchoredPosition: {x: 0, y: -57.795}
   m_SizeDelta: {x: 182.0529, y: 115.59}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2130630548
