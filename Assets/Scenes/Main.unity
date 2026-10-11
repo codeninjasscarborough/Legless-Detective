@@ -1566,8 +1566,8 @@ MonoBehaviour:
     but a muder attempt, because how could a car hit only him and dodge everyone
     else in the car? \n\n\tLiam decided to become a detective himself to later find
     out what actually happened in the accident and how. Now, as a dectective, he
-    is using evdence form the crime scene to find the culprit. \n \nChoose a scene
-    and help Liam find the culprit."
+    is using evdence form the crime scene to find the culprit by using a metal detector
+    attached to him.\n \nChoose a scene and help Liam find the culprit."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b599552152748794d94e4fa9dc02bd9a, type: 2}
   m_sharedMaterial: {fileID: -7477249205473803901, guid: b599552152748794d94e4fa9dc02bd9a, type: 2}
