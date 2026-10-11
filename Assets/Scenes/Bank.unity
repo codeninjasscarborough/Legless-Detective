@@ -21329,6 +21329,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 233002650236843839, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_Name
+      value: 'CharcoalWaffle '
+      objectReference: {fileID: 0}
     - target: {fileID: 268021741735631671, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -21368,6 +21372,10 @@ PrefabInstance:
     - target: {fileID: 535164851338451485, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 545936570926432488, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_Name
+      value: ShadowChonk
       objectReference: {fileID: 0}
     - target: {fileID: 631721977765126270, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -21409,10 +21417,26 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 713507089697466828, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_text
+      value: "Hints:\nHair \nDiamond \nHand Print "
+      objectReference: {fileID: 0}
+    - target: {fileID: 754989395523389406, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_text
+      value: "Hints:\nDiamond \nEscape plan \nHand Print "
+      objectReference: {fileID: 0}
     - target: {fileID: 815384416707518255, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: b7299b9e432d93f4cb36a6960461b7ec, type: 3}
+    - target: {fileID: 852074478179529511, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_Name
+      value: SpongeBob
+      objectReference: {fileID: 0}
+    - target: {fileID: 884775482297209801, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_text
+      value: "Hints:\nDiamond \nCrushed can\nHand Print"
+      objectReference: {fileID: 0}
     - target: {fileID: 1084065954467992667, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -21445,14 +21469,34 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 895363775}
+    - target: {fileID: 1967130701325164885, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_Name
+      value: 'CrispyBrick '
+      objectReference: {fileID: 0}
     - target: {fileID: 2033590027115109073, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 895363775}
+    - target: {fileID: 2199676686119583089, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_text
+      value: "Hints: \nBobby Pin\nDiamond \nCrushed Can "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2212869979325484403, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_text
+      value: "Hints: \nBobby Pin \nEscape plan\nHand Print "
+      objectReference: {fileID: 0}
     - target: {fileID: 2280056622225110211, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 895363775}
+    - target: {fileID: 2321586699084441562, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_Name
+      value: Error404
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413990566381204630, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_Name
+      value: 'CtrlAltDefeat '
+      objectReference: {fileID: 0}
     - target: {fileID: 2458249273417054245, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -21473,6 +21517,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2506002576951807753, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_text
+      value: "Hints:\nDiamond \nEscape Plan\nCrushed can"
+      objectReference: {fileID: 0}
     - target: {fileID: 2537668759879216029, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -21485,10 +21533,22 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2684707745265893747, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_text
+      value: "Hints: \nEscape plan\nDiamond \nHair "
+      objectReference: {fileID: 0}
     - target: {fileID: 2756359595499077844, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: c33a3fbec7155a74398ab9ddef95a7f0, type: 3}
+    - target: {fileID: 2758714154012826870, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_text
+      value: "Hints: \nBobby Pin \nCrushed Can \nHair"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2760071828725163650, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_Name
+      value: 'ThickPixel '
+      objectReference: {fileID: 0}
     - target: {fileID: 2853847337865274796, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -21517,10 +21577,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3124518653301490573, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_Name
+      value: LaggyGuy
+      objectReference: {fileID: 0}
     - target: {fileID: 3325529921007324818, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 17acd3b1bf1850348850229cb1304b49, type: 3}
+    - target: {fileID: 3326918850437228740, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_Name
+      value: 'SirBlocksALot '
+      objectReference: {fileID: 0}
     - target: {fileID: 3374692430252487217, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -21536,6 +21604,10 @@ PrefabInstance:
     - target: {fileID: 3374692430252487217, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3454822124794777020, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_Name
+      value: Unrendered
       objectReference: {fileID: 0}
     - target: {fileID: 3461696259493200377, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -21577,10 +21649,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 895363775}
+    - target: {fileID: 3774004601661973802, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_text
+      value: "Hints:\nCrushed Can \nDiamond \nHair"
+      objectReference: {fileID: 0}
     - target: {fileID: 3784604307514446342, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 895363775}
+    - target: {fileID: 4628869210395983749, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_Name
+      value: 'BurntNugget '
+      objectReference: {fileID: 0}
     - target: {fileID: 4700215676598962386, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
       propertyPath: m_text
       value: Crushed Can
@@ -21600,6 +21680,14 @@ PrefabInstance:
     - target: {fileID: 4706716641031911177, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4797298409332951491, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_Name
+      value: BobtheBob
+      objectReference: {fileID: 0}
+    - target: {fileID: 4842522531283051008, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_Name
+      value: Loading...
       objectReference: {fileID: 0}
     - target: {fileID: 4860619819331748451, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
       propertyPath: m_AnchorMax.y
@@ -21621,6 +21709,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4950296006539275386, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_Name
+      value: 'BurntCrouton '
+      objectReference: {fileID: 0}
     - target: {fileID: 4992657722024990324, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -21653,6 +21745,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5062618968281367721, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_text
+      value: "Hints: \nBobby Pin \nEscape Plan\nCrushed Can"
+      objectReference: {fileID: 0}
     - target: {fileID: 5104227159603492966, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -21668,11 +21764,19 @@ PrefabInstance:
     - target: {fileID: 5104227159603492966, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185279574579632101, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_text
+      value: "Hints: \nEscape Plan\nCrushed Can\nHand Print "
       objectReference: {fileID: 0}
     - target: {fileID: 5212377147419645845, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: b10cec3adcbf19649bd6d8287b5bdf9f, type: 3}
+    - target: {fileID: 5214729649724017591, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_text
+      value: "Hints:\nCrushed Can \nHair \nHand Print "
+      objectReference: {fileID: 0}
     - target: {fileID: 5227620605989187578, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -21753,6 +21857,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5297387127178161871, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_text
+      value: "Hints: \nEscape plan\nHair \nHand Print "
+      objectReference: {fileID: 0}
     - target: {fileID: 5402195433415811539, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -21765,6 +21873,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: b805b213f26df2346bca2abb5ed6e080, type: 3}
+    - target: {fileID: 5560083811867156734, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_text
+      value: "Hints: \nBobby Pin \nHair\nHand Print \n"
+      objectReference: {fileID: 0}
     - target: {fileID: 5764757747773086118, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -21821,6 +21933,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 895363775}
+    - target: {fileID: 5920565400686528089, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_Name
+      value: DarkPotato
+      objectReference: {fileID: 0}
     - target: {fileID: 5924647319868149016, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -21893,6 +22009,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7054441893594456987, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_text
+      value: "Hints: \nBobby Pin\nEscape plan\nHair "
+      objectReference: {fileID: 0}
     - target: {fileID: 7086875890587916458, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -21913,6 +22033,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 2533d5566c4a4404b9caf6c7d9690a9e, type: 3}
+    - target: {fileID: 7299821801074627660, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_text
+      value: "Hints:\nBobby Pin\nDiamond \nCrushed Can"
+      objectReference: {fileID: 0}
     - target: {fileID: 7398831366095957169, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -21944,6 +22068,10 @@ PrefabInstance:
     - target: {fileID: 7600900295894502748, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7652387008004698298, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_Name
+      value: 'ChounkyVoid '
       objectReference: {fileID: 0}
     - target: {fileID: 7670410940090847449, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
       propertyPath: m_AnchorMax.y
@@ -21997,6 +22125,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7786623938250417325, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_Name
+      value: 'GlitchyBoy '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7901225611198386260, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_text
+      value: "Hints: \nBobby Pin \nHair \nDiamond "
+      objectReference: {fileID: 0}
     - target: {fileID: 7922998828395912867, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -22012,6 +22148,10 @@ PrefabInstance:
     - target: {fileID: 7922998828395912867, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8039775289380702911, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_Name
+      value: 'Overcooked '
       objectReference: {fileID: 0}
     - target: {fileID: 8113283952142497298, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
       propertyPath: m_Sprite
@@ -22105,6 +22245,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 895363775}
+    - target: {fileID: 8701049485233597952, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_Name
+      value: 'DenseBlock '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8715368696064663042, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_Name
+      value: LumpyCube
+      objectReference: {fileID: 0}
     - target: {fileID: 8893708027747808384, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -22125,6 +22273,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 895363775}
+    - target: {fileID: 9023314929022894630, guid: 0912bb25be2eb9c4daab471daf6271b9, type: 3}
+      propertyPath: m_text
+      value: "Hints:\nBobby Pin \nCrushed Can \nHand Print "
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
