@@ -16,7 +16,7 @@ public class MusicPlaylist : MonoBehaviour
     {
         audioSource = GetComponent<AudioSource>();
         audioSource.loop = false;
-        audioSource.playOnAwake = false; // Prevents initial clashes
+        audioSource.volume = PlayerPrefs.GetFloat("volume", 1f);
 
         if (playlist.Length > 0)
         {

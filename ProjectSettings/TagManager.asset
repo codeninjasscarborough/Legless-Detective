@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Hint
   - HintTrigger
+  - Sound
   layers:
   - Default
   - TransparentFX

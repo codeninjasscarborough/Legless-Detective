@@ -14421,6 +14421,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: mainDetective
       objectReference: {fileID: 0}
+    - target: {fileID: 7395348593601442214, guid: ae6a2fc637d049748867c4d1548b6234, type: 3}
+      propertyPath: m_Volume
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7416531824239245667, guid: ae6a2fc637d049748867c4d1548b6234, type: 3}
       propertyPath: m_UseGravity
       value: 0

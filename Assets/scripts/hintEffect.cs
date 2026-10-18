@@ -6,7 +6,6 @@ using UnityEngine;
 public class hintEffect : MonoBehaviour
 {
     private ParticleSystem particaleEffect;
-
     private void Start()
     {
         particaleEffect = GetComponentInChildren<ParticleSystem>();
@@ -18,6 +17,7 @@ public class hintEffect : MonoBehaviour
             Debug.Log("partical should play");
             particaleEffect.Play();
         }
+        
     }
 
     private void OnTriggerExit(Collider other)
